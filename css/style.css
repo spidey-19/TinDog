@@ -1,0 +1,345 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+
+  animation: gradient-animation 18s ease infinite;
+  
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+  .body{
+        width: 100%;
+        height: 600px;
+       background: linear-gradient(#e66465, #efb34a);
+     
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px;
+
+        
+      }
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      .dog{
+        width: 300px;
+        padding-top: 300px;
+      }
+      .header{
+        display: flex;
+        padding-top: 200px;
+        
+        justify-content: center;
+        align-items: center;
+
+      }
+      .doggy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .apple{
+        position: absolute;
+        left: 250px;
+        top: 350px;
+        border-style: none;
+        width: 100px;
+        height: 40px;
+        background-color: black;
+        color: white;
+       
+        border-radius: 15px;
+      }
+      .apple:hover{
+       
+        cursor: pointer;
+      }
+      .store:hover{
+     
+        cursor: pointer;
+        border:2px solid white;
+        color: white;
+      }
+      .store{
+        position: absolute;
+        left: 400px;
+        top: 350px;
+        border-style: none;
+        width: 100px;
+        height: 40px;
+         border-radius: 15px;
+         background:none;
+         border: 2px solid black;
+      }
+      .apple>svg{
+       padding-right: 6px;
+      }
+      .store>svg{
+         padding-right: 6px;
+      }
+      h1>p{
+        font-weight: lighter;
+        font-size: 20px;
+        
+      }
+      .ten{
+        padding-left: 20px;
+      }
+      .features{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+      }
+      h1>svg{
+        padding-right: 15px;
+      }
+     .sponsers{
+      background-color: #f8f9fA;
+      width: 100%;
+      height: 500px;
+
+     }
+     .sponsers1{
+            margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }
+     .sponsers1>h1{
+      font-size: 20px;
+      padding-top: 30px;
+     }
+     .sponsers1>img{
+      width: 150px;
+      border-radius: 100%;
+      padding-top: 50px;
+     }
+     .sponsers1>p{
+      padding-top: 30px;
+      font-size: 20px;
+     }
+     .one{
+      width: 200px;
+     }
+     .two{
+      width: 150px;
+     }
+     .three{
+      width: 200px;
+     }
+     .four{
+      width: 100px;
+     }
+     .logo{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding-top: 50px;
+     }
+     .plan{
+      height: 600px;
+      width: 100%;
+     }
+     .plan>h1{
+      padding-left: 400px;
+      padding-top: 40px;
+      font-size: 50px;
+     }
+     h1>p{
+      padding-top: 20px;
+      padding-left: 90px;
+     }
+     .box{
+      display: flex;
+      justify-content: space-around;
+      padding-top: 50px;
+     }
+    .box>div{
+      width: 400px;
+      height: 300px;
+      border: 3px solid black;
+    }
+    div>h2{
+      padding:20px;
+      padding-left: 130px;
+    }
+    div>p{
+      padding: 10px;
+      padding-left: 120px;
+    }
+    .p1{
+      font-size: 30px;
+      font-weight: bolder;
+    }
+    .seven{
+      margin-left: 120px;
+      margin-top: 10px;
+      border: none;
+      background: none;
+      border: 3px solid black;
+      width: 140px;
+      height: 40px;
+      font-size: 15px;
+
+    }
+    button:hover{
+      cursor: pointer;
+    }
+    .eigth{
+      background-color: black;
+      color: white;
+            margin-left: 120px;
+      margin-top: 10px;
+      border: none;
+    
+      border: 3px solid black;
+      width: 140px;
+      height: 40px;
+      font-size: 15px
+    }
+    .nine{
+      background-color: black;
+      color: white;
+      margin-left: 120px;
+      margin-top: 10px;
+      border: none;
+    
+      border: 3px solid black;
+      width: 140px;
+      height: 40px;
+      font-size: 15px
+    }
+    .box3>h2{
+      background-color: black;
+      color: white;
+      padding-left: 160px;
+    }
+    .footer{
+      width: 100%;
+      height: 300px;
+      display: flex;
+      justify-content: space-around;
+       background: linear-gradient(#e66465, #efb34a);
+    }
+    div>h3{
+      padding: 10px;
+      font-size: 25px;
+    }
+    div>h4{
+      padding: 10px;
+    }
+
+
+
+      @media(max-width:600px){
+       .body{
+        background-size:  cover;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 750px;
+        width: 100%;
+       }
+       .doggy{
+        grid-area: 1/1/2/3;
+       }
+       .dog{
+        padding-top: 10px;
+       }
+       .header{
+        grid-area:2/1/4/3;
+
+        padding-top: 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
+       }
+       .header>h1{
+       padding-left: 10px;
+      
+       }
+       .header>.apple{
+        align-items: absolute;
+        top: 650px;
+        left: 80px;
+      
+       }
+        .header>.store{
+        align-items: absolute;
+        top: 650px;
+        left: 200px;
+       }
+       .features{
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 400px;
+       }
+       h1>p{
+        padding-left: 48px;
+  
+       }
+       .sponsers1>h1{
+        padding-left: 20px;
+       }
+       .logo{
+        display: flex;
+        flex-direction: column;
+        
+      
+      
+       }
+       .sponsers{
+        height: 720px;
+       }
+       .logo>img{
+        padding: 20px;
+       }
+       .plan>h1{
+        padding-left: 30px;
+        font-size: 30px;
+       }
+       h1>p{
+        padding-left: 5px;
+       }
+       .plan{
+        width: 100%;
+       }
+       .box{
+        flex-direction: column;
+        gap: 20px;
+       }
+       .box>div{
+        width: 350px;
+        margin-left: 10px;
+       }
+       .box3>h2{
+        padding-left: 130px;
+       }
+       .footer{
+        margin-top: 600px;
+       }
+       
+     
+      }
